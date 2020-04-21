@@ -7,6 +7,11 @@ body {
 	margin: 0 auto;
 }
 
+.header-container {
+	width: 85%;
+	margin: 0 auto;
+}
+
 .main-header {
 	padding: 15px 0;
 	display: -webkit-box;
@@ -353,8 +358,8 @@ footer {
 	.nav-item {
 		margin-right: 0;
 	}
-	.container {
-		width: 90%;
+	.header-container {
+		width: 95%;
 	}
 }
 
@@ -395,5 +400,5 @@ footer {
 	.lang-switcher-adapt {
 		display: block;
 		margin-top: 5px;
-	}	
+	}
 }

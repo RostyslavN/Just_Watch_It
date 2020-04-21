@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			return value.json();
 		})
 		.then((output) => {
-			let inner = '<p class="list__title">Скоро на екранах</p>';
+			let inner = '<p class="list__title">Очікуються</p>';
 			if (output.results.length === 0 || output.results[0].media_type === 'person') {
 				modalText.innerHTML = "По вашому запиту нічого не знайдено.";
 				modalWindow.style.display = "block";
