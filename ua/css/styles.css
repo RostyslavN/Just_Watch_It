@@ -291,7 +291,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
 	.main-header {
 		display: block;
 	}
@@ -314,9 +314,13 @@ footer {
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
 	iframe {
 		width: 350px;
 		height: 200px;
 	}
+	.nav-item {
+		margin-right: 0;
+	}
+	
 }
